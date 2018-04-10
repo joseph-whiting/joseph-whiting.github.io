@@ -17,3 +17,5 @@ paginate:         5
 version:          2.1.0
 
 plugins: [jekyll-paginate, jekyll-gist]
+
+theme: jekyll-theme-cayman
