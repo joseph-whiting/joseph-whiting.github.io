@@ -3,7 +3,7 @@ title:            Joseph Whiting
 permalink:        pretty
 tagline:          'Software Developer'
 description:      'Functional Programming, Reactive Programming, Scala, Machine Learning, GraphQL'
-baseurl:          'https://joseph-whiting.github.io'
+baseurl:          'https://joseph-whiting.github.io/'
 
 author:
   name:           'Joseph Whiting'
