@@ -1,8 +1,9 @@
 # Setup
 title:            Joseph Whiting
+permalink:        pretty
 tagline:          'Software Developer'
 description:      'Functional Programming, Reactive Programming, Scala, Machine Learning, GraphQL'
-baseurl:          /
+baseurl:          '/'
 
 author:
   name:           'Joseph Whiting'
