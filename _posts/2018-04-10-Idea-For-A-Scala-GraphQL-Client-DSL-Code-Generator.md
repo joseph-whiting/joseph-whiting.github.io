@@ -13,7 +13,7 @@ type Character {
 {% endhighlight %}
 we could write Scala code like
 {% highlight scala %}
-query = query {
+val query = query {
   character {
     name
   }
