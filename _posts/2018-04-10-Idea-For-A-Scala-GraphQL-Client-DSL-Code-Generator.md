@@ -1,10 +1,10 @@
 
 ---
 ---
-##Motivation
+## Motivation
 I recently started work on a hobby project where I wanted to use [ScalaJS and React](https://github.com/japgolly/scalajs-react). I decided to use [GraphQL](https://graphql.org/) to interface with the backend because of its flexibility. The Apollo organisation do a great set of client libraries for working with GraphQL, including [one for ScalaJS and React](https://github.com/apollographql/react-apollo-scalajs). Unfortunately that was designed for a different ScalaJS/React library than the one I wanted to use. It also didn't do much apart from convert GraphQL queries to Scala types: very handy, but with the power of Scala why not be more abitious?
 So my idea is to try and build a more flexible and fully featured code generation tool for consuming GraphQL APIs. I'm learning a lot as I go along, so decided to write down some of those things. For now though: roughly what do I think I might be able to achieve?
-##DSLs
+## DSLs
 Scala has some features that have allowed people to write some awesome Domain Specific Languages(DSLs). They're basically APIs to libraries that are easy to read and write, and convey meaning really well. Some great examples are [ScalaTest matchers](http://www.scalatest.org/user_guide/using_matchers) and [Akka Http routing](https://doc.akka.io/docs/akka-http/current/routing-dsl/overview.html). My idea is to write an sbt plugin that generates a DSL from a GraphQL schema. It would be really cool if for GraphQL API schemas like
 {% highlight graphql %}
 Character {
