@@ -1,5 +1,4 @@
 ---
-layout: post
 ---
 ## Motivation
 I recently started work on a hobby project where I wanted to use [ScalaJS and React](https://github.com/japgolly/scalajs-react). I decided to use [GraphQL](https://graphql.org/) to interface with the backend because of its flexibility. The Apollo organisation do a great set of client libraries for working with GraphQL, including [one for ScalaJS and React](https://github.com/apollographql/react-apollo-scalajs). Unfortunately that was designed for a different ScalaJS/React library than the one I wanted to use. It also didn't do much apart from convert GraphQL queries to Scala types: very handy, but with the power of Scala why not be more abitious?
