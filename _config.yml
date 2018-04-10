@@ -8,7 +8,6 @@ permalink:        pretty
 title:            Joseph Whiting
 tagline:          'Software Developer'
 description:      'Functional Programming, Reactive Programming, Scala, Machine Learning, GraphQL'
-url:              https://joseph-whiting.github.io
 baseurl:          /
 
 author:
