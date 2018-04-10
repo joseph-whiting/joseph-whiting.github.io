@@ -7,7 +7,7 @@ So my idea is to try and build a more flexible and fully featured code generatio
 Scala has some features that have allowed people to write some awesome Domain Specific Languages(DSLs). They're basically APIs to libraries that are easy to read and write, and convey meaning really well. Some great examples are [ScalaTest matchers](http://www.scalatest.org/user_guide/using_matchers) and [Akka Http routing](https://doc.akka.io/docs/akka-http/current/routing-dsl/overview.html). My idea is to write an sbt plugin that generates a DSL from a GraphQL schema. It would be really cool if for GraphQL API schemas like
 {% highlight graphql %}
 type Character {
-  name: String,
+  name: String
   age: Integer
 }
 {% endhighlight %}
