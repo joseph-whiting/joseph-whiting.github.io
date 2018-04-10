@@ -6,7 +6,7 @@ markdown:         redcarpet
 title:            Joseph Whiting
 tagline:          'Software Developer'
 description:      'Functional Programming, Reactive Programming, Scala, Machine Learning, GraphQL'
-baseurl:          /joseph-whiting
+baseurl:          \joseph-whiting
 
 author:
   name:           'Joseph Whiting'
