@@ -1,8 +1,6 @@
 # Dependencies
 markdown:         redcarpet  
 
-# Permalinks
-permalink:        pretty
 
 # Setup
 title:            Joseph Whiting
